@@ -1,1 +1,1717 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Road Properties, LLC | Commercial Real Estate Leasing | Mystic, CT</title>
+  <meta name="description" content="Commercial real estate leasing in Mystic, Connecticut. Flexible commercial spaces including office, warehouse, maker space, indoor storage, outdoor storage, and commercial facilities.">
+  <meta name="keywords" content="Commercial real estate in Mystic CT, Commercial space for lease in Mystic, Office space in Mystic Connecticut, Warehouse space in Mystic, Commercial storage space, Maker space Mystic CT, North Road Properties LLC">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="North Road Properties, LLC | Commercial Real Estate Leasing">
+  <meta property="og:description" content="Flexible commercial office, warehouse, maker, and storage spaces in Mystic, Connecticut.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg">
 
+  <!-- Fonts: Inter & Plus Jakarta Sans for refined architectural corporate aesthetics -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: '#171717',
+              graphite: '#262626',
+              charcoal: '#3F3F46',
+              warm: '#F7F6F3',
+              stone: '#E8E6DF',
+              steel: '#929598',
+              bronze: '#A38D70',
+              bronzedark: '#846F54'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['Cinzel', 'serif']
+          },
+          letterSpacing: {
+            widestPlus: '0.22em'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Architectural subtle image treatment & logo isolation */
+    .logo-light {
+      mix-blend-mode: multiply;
+      filter: contrast(110%);
+    }
+    .logo-dark {
+      filter: invert(1) contrast(150%) brightness(1.2);
+      mix-blend-mode: screen;
+    }
+    
+    /* Smooth custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #171717;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #3F3F46;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #A38D70;
+    }
+
+    /* Modal Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .modal-enter {
+      animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    /* Timed Persistent CTA subtle slide-in */
+    @keyframes ctaSlideUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .cta-float-enter {
+      animation: ctaSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+  </style>
+
+  <!-- Structured Data: Verified Local Business Info Only -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "North Road Properties, LLC",
+    "image": "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/643882365_1430402762208325_1813272272624115096_n.jpg",
+    "telephone": "+18602225507",
+    "email": "northroadpropertiesct@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1101 Noank Ledyard Road",
+      "addressLocality": "Mystic",
+      "addressRegion": "CT",
+      "postalCode": "06355",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Mystic, CT",
+      "Groton, CT",
+      "East Lyme, CT"
+    ],
+    "description": "Commercial real estate leasing company providing flexible office, warehouse, maker space, indoor storage, outdoor storage, and commercial facilities."
+  }
+  </script>
+</head>
+
+<body class="bg-brand-warm text-brand-black antialiased selection:bg-brand-black selection:text-white">
+
+  <!-- ================= TOP UTILITY BAR ================= -->
+  <div class="bg-brand-black text-stone-300 text-xs py-2 px-6 border-b border-neutral-800/80">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-4">
+        <span class="inline-flex items-center gap-1.5 tracking-wider text-[11px] uppercase text-brand-bronze font-medium">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> 1101 Noank Ledyard Rd, Mystic, CT 06355
+        </span>
+        <span class="hidden md:inline text-neutral-600">|</span>
+        <span class="hidden md:inline text-neutral-400">Serving Mystic, Groton &amp; East Lyme</span>
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="tel:+18602225507" class="hover:text-white transition flex items-center gap-1.5 font-medium">
+          <i data-lucide="phone" class="w-3 h-3 text-brand-bronze"></i> +1 860-222-5507
+        </a>
+        <a href="mailto:northroadpropertiesct@gmail.com" class="hover:text-white transition hidden sm:flex items-center gap-1.5">
+          <i data-lucide="mail" class="w-3 h-3 text-brand-bronze"></i> northroadpropertiesct@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MAIN HEADER & STICKY NAVIGATION ================= -->
+  <header id="main-header" class="sticky top-0 z-40 bg-brand-warm/95 backdrop-blur-md border-b border-brand-stone/60 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 h-24 sm:h-28 flex items-center justify-between">
+      
+      <!-- Brand Logo (Official Horizontal Architectural Line Art) -->
+      <a href="#hero" class="flex items-center group py-2" aria-label="North Road Properties Home">
+        <img 
+          src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/643882365_1430402762208325_1813272272624115096_n.jpg" 
+          alt="North Road Properties, LLC Logo" 
+          class="h-16 sm:h-20 md:h-22 w-auto object-contain logo-light transition-opacity duration-200 group-hover:opacity-85"
+        />
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden lg:flex items-center gap-9 text-xs uppercase tracking-widestPlus font-semibold text-brand-charcoal">
+        <a href="#hero" class="hover:text-brand-black transition-colors relative py-1 hover:after:w-full after:transition-all after:duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-black">Home</a>
+        <a href="#property-spaces" class="hover:text-brand-black transition-colors relative py-1 hover:after:w-full after:transition-all after:duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-black">Property Spaces</a>
+        <a href="#property-overview" class="hover:text-brand-black transition-colors relative py-1 hover:after:w-full after:transition-all after:duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-black">The Property</a>
+        <a href="#gallery" class="hover:text-brand-black transition-colors relative py-1 hover:after:w-full after:transition-all after:duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-black">Gallery</a>
+        <a href="#about" class="hover:text-brand-black transition-colors relative py-1 hover:after:w-full after:transition-all after:duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-black">About</a>
+        <a href="#location" class="hover:text-brand-black transition-colors relative py-1 hover:after:w-full after:transition-all after:duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-black">Location</a>
+      </nav>
+
+      <!-- CTA Button -->
+      <div class="hidden sm:flex items-center gap-4">
+        <a href="#enquiry" class="inline-flex items-center justify-center px-6 py-2.5 bg-brand-black text-white hover:bg-neutral-800 text-xs font-semibold uppercase tracking-widestPlus transition duration-200 shadow-sm border border-brand-black">
+          Enquire About Space
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 text-brand-black focus:outline-none" aria-label="Toggle navigation menu">
+        <i data-lucide="menu" id="menu-icon" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-brand-warm border-b border-brand-stone/80 px-6 py-6 transition-all duration-300">
+      <nav class="flex flex-col gap-4 text-xs uppercase tracking-widestPlus font-semibold text-brand-charcoal">
+        <a href="#hero" class="mobile-nav-link py-2 border-b border-neutral-200">Home</a>
+        <a href="#property-spaces" class="mobile-nav-link py-2 border-b border-neutral-200">Property Spaces</a>
+        <a href="#property-overview" class="mobile-nav-link py-2 border-b border-neutral-200">The Property</a>
+        <a href="#gallery" class="mobile-nav-link py-2 border-b border-neutral-200">Gallery</a>
+        <a href="#about" class="mobile-nav-link py-2 border-b border-neutral-200">About</a>
+        <a href="#location" class="mobile-nav-link py-2 border-b border-neutral-200">Location</a>
+        <a href="#enquiry" class="mobile-nav-link mt-2 text-center py-3 bg-brand-black text-white">Enquire About Space</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= 07. HERO SECTION ================= -->
+  <!-- Authentic Exterior Commercial Photograph as full-bleed backdrop -->
+  <section id="hero" class="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-brand-black text-white">
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg" 
+        alt="North Road Properties Commercial Exterior Premises in Mystic, CT" 
+        class="w-full h-full object-cover object-center filter brightness-[0.75] contrast-[1.05]"
+      />
+      <!-- Cinematic linear gradient overlay inspired by Lenval & Stellar Management -->
+      <div class="absolute inset-0 bg-gradient-to-t from-brand-black/95 via-brand-black/40 to-brand-black/60"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-28 md:py-36 w-full">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 mb-6 bg-white/10 backdrop-blur-md border border-white/20 text-brand-stone text-xs font-semibold tracking-widestPlus uppercase">
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-bronze animate-pulse"></span>
+          Mystic, Connecticut
+        </div>
+        
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-white mb-6 leading-[1.08]">
+          Commercial Space.<br>
+          <span class="font-semibold text-stone-100">Endless Possibilities.</span>
+        </h1>
+        
+        <p class="text-base sm:text-lg md:text-xl text-stone-300 font-light max-w-2xl leading-relaxed mb-10">
+          Discover flexible commercial spaces in Mystic, Connecticut, for businesses, makers, storage, and specialized operations.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+          <a href="#property-spaces" class="px-8 py-4 bg-white text-brand-black hover:bg-stone-200 text-xs font-semibold tracking-widestPlus uppercase text-center transition shadow-lg">
+            Explore Property Spaces
+          </a>
+          <a href="#enquiry" class="px-8 py-4 bg-transparent border border-white/60 text-white hover:bg-white/10 text-xs font-semibold tracking-widestPlus uppercase text-center transition">
+            Enquire With Us
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#intro" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-stone-400 hover:text-white transition flex flex-col items-center gap-2 group" aria-label="Scroll to introduction">
+      <span class="text-[10px] tracking-widestPlus uppercase font-semibold text-stone-400 group-hover:text-white">Scroll</span>
+      <i data-lucide="chevron-down" class="w-4 h-4 animate-bounce"></i>
+    </a>
+  </section>
+
+  <!-- ================= 08. INTRODUCTION SECTION ================= -->
+  <section id="intro" class="py-24 md:py-32 bg-brand-warm border-b border-brand-stone/60">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left: Editorial Authentic Property Photography -->
+        <div class="lg:col-span-6 relative">
+          <div class="relative overflow-hidden aspect-[4/3] bg-neutral-200 shadow-xl border border-brand-stone">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/889912767_1650435533538379_5610502411407513940_n.jpg" 
+              alt="North Road Properties Commercial Building Exterior in Mystic" 
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+          <!-- Architectural caption badge -->
+          <div class="mt-4 flex items-center justify-between text-xs text-brand-charcoal">
+            <span class="tracking-widestPlus uppercase font-medium">Commercial Facility • Mystic, CT</span>
+            <span class="text-neutral-400">Authentic Premises</span>
+          </div>
+        </div>
+
+        <!-- Right: Company Introduction & Value Proposition -->
+        <div class="lg:col-span-6 flex flex-col justify-center">
+          <div class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3">
+            North Road Properties
+          </div>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight mb-6">
+            Space That Works for <span class="font-bold">Your Business.</span>
+          </h2>
+          <div class="space-y-5 text-base sm:text-lg text-brand-charcoal font-light leading-relaxed mb-8">
+            <p>
+              North Road Properties offers a range of commercial leasing options in Mystic, Connecticut, serving businesses and operators looking for space to work, create, store, and grow.
+            </p>
+            <p class="text-base text-neutral-600">
+              Conveniently positioned to serve the greater regional market—including Groton and East Lyme—the facility provides adaptable infrastructure for professional, functional, and specialized commercial undertakings.
+            </p>
+          </div>
+          
+          <div class="pt-2">
+            <a href="#property-spaces" class="inline-flex items-center gap-3 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronzedark transition group">
+              Discover Our Spaces
+              <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 09. PROPERTY SPACES (CORE SERVICES) ================= -->
+  <section id="property-spaces" class="py-24 md:py-32 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <!-- Section Header -->
+      <div class="max-w-3xl mb-16 md:mb-20">
+        <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+          Commercial Capabilities
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight mb-4">
+          Explore Our <span class="font-bold">Commercial Spaces</span>
+        </h2>
+        <p class="text-base sm:text-lg text-brand-charcoal font-light leading-relaxed">
+          From professional offices and warehouse space to maker facilities and storage options, explore the different types of commercial space offered by North Road Properties.
+        </p>
+      </div>
+
+      <!-- Editorial Asymmetric Layout of the 6 Categories -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+
+        <!-- 01. Office Space -->
+        <div class="group flex flex-col bg-brand-warm border border-brand-stone/80 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-brand-black/40">
+          <div class="relative aspect-[16/10] overflow-hidden bg-neutral-200">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/657380990_1456355939613007_7450083720104854701_n.jpg" 
+              alt="Authentic Commercial Office Space Interior at North Road Properties" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div class="absolute top-4 left-4 bg-brand-black/90 text-white text-[10px] uppercase font-bold tracking-widestPlus px-2.5 py-1">
+              01 • Office
+            </div>
+          </div>
+          <div class="p-6 md:p-8 flex flex-col flex-grow justify-between">
+            <div>
+              <h3 class="text-xl font-semibold text-brand-black mb-3">Office Space</h3>
+              <p class="text-sm text-brand-charcoal font-light leading-relaxed mb-6">
+                Commercial office space for businesses seeking a professional working environment with flexible configurations.
+              </p>
+            </div>
+            <button onclick="prefillEnquiry('Office Space')" class="text-left inline-flex items-center gap-2 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronze transition">
+              Enquire About Office Space <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 02. Warehouse Space -->
+        <div class="group flex flex-col bg-brand-warm border border-brand-stone/80 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-brand-black/40">
+          <div class="relative aspect-[16/10] overflow-hidden bg-neutral-200">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/735786517_1535927258322541_2328848903515565630_n.jpg" 
+              alt="Authentic Warehouse and Flex Interior Space at North Road Properties" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div class="absolute top-4 left-4 bg-brand-black/90 text-white text-[10px] uppercase font-bold tracking-widestPlus px-2.5 py-1">
+              02 • Warehouse
+            </div>
+          </div>
+          <div class="p-6 md:p-8 flex flex-col flex-grow justify-between">
+            <div>
+              <h3 class="text-xl font-semibold text-brand-black mb-3">Warehouse Space</h3>
+              <p class="text-sm text-brand-charcoal font-light leading-relaxed mb-6">
+                Warehouse space for commercial operations, storage, and business activities requiring clear floor spans and accessibility.
+              </p>
+            </div>
+            <button onclick="prefillEnquiry('Warehouse Space')" class="text-left inline-flex items-center gap-2 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronze transition">
+              Enquire About Warehouse Space <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 03. Maker Space -->
+        <div class="group flex flex-col bg-brand-warm border border-brand-stone/80 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-brand-black/40">
+          <div class="relative aspect-[16/10] overflow-hidden bg-neutral-200">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/736188416_1535927438322523_3391856490999828057_n.jpg" 
+              alt="Authentic Maker and Production Workshop Space at North Road Properties" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div class="absolute top-4 left-4 bg-brand-black/90 text-white text-[10px] uppercase font-bold tracking-widestPlus px-2.5 py-1">
+              03 • Maker Space
+            </div>
+          </div>
+          <div class="p-6 md:p-8 flex flex-col flex-grow justify-between">
+            <div>
+              <h3 class="text-xl font-semibold text-brand-black mb-3">Maker Space</h3>
+              <p class="text-sm text-brand-charcoal font-light leading-relaxed mb-6">
+                Functional space for makers, creators, craft producers, and hands-on business activities seeking adaptable commercial quarters.
+              </p>
+            </div>
+            <button onclick="prefillEnquiry('Maker Space')" class="text-left inline-flex items-center gap-2 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronze transition">
+              Enquire About Maker Space <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 04. Indoor Storage -->
+        <div class="group flex flex-col bg-brand-warm border border-brand-stone/80 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-brand-black/40">
+          <div class="relative aspect-[16/10] overflow-hidden bg-neutral-200">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/658479981_1456355946279673_6161297689393247705_n.jpg" 
+              alt="Authentic Indoor Storage Space at North Road Properties" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div class="absolute top-4 left-4 bg-brand-black/90 text-white text-[10px] uppercase font-bold tracking-widestPlus px-2.5 py-1">
+              04 • Indoor Storage
+            </div>
+          </div>
+          <div class="p-6 md:p-8 flex flex-col flex-grow justify-between">
+            <div>
+              <h3 class="text-xl font-semibold text-brand-black mb-3">Indoor Storage</h3>
+              <p class="text-sm text-brand-charcoal font-light leading-relaxed mb-6">
+                Indoor storage options for businesses requiring additional space for inventory, tools, documents, and equipment.
+              </p>
+            </div>
+            <button onclick="prefillEnquiry('Indoor Storage')" class="text-left inline-flex items-center gap-2 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronze transition">
+              Enquire About Indoor Storage <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 05. Outside Storage -->
+        <div class="group flex flex-col bg-brand-warm border border-brand-stone/80 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-brand-black/40">
+          <div class="relative aspect-[16/10] overflow-hidden bg-neutral-200">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/892172712_1650425516872714_5503675462845532080_n.jpg" 
+              alt="Authentic Commercial Property Exterior Grounds at North Road Properties" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div class="absolute top-4 left-4 bg-brand-black/90 text-white text-[10px] uppercase font-bold tracking-widestPlus px-2.5 py-1">
+              05 • Outside Storage
+            </div>
+          </div>
+          <div class="p-6 md:p-8 flex flex-col flex-grow justify-between">
+            <div>
+              <h3 class="text-xl font-semibold text-brand-black mb-3">Outside Storage</h3>
+              <p class="text-sm text-brand-charcoal font-light leading-relaxed mb-6">
+                Outdoor storage options for equipment, commercial materials, operational support vehicles, and business needs.
+              </p>
+            </div>
+            <button onclick="prefillEnquiry('Outside Storage')" class="text-left inline-flex items-center gap-2 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronze transition">
+              Enquire About Outdoor Storage <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 06. Outdoor Event Space & Specialized Uses -->
+        <div class="group flex flex-col bg-brand-warm border border-brand-stone/80 overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-brand-black/40">
+          <div class="relative aspect-[16/10] overflow-hidden bg-neutral-200">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/891290571_1648332883748644_9137934074111094175_n.jpg" 
+              alt="Authentic Property Grounds and Outdoor Commercial Space at North Road Properties" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div class="absolute top-4 left-4 bg-brand-black/90 text-white text-[10px] uppercase font-bold tracking-widestPlus px-2.5 py-1">
+              06 • Outdoor Event Space
+            </div>
+          </div>
+          <div class="p-6 md:p-8 flex flex-col flex-grow justify-between">
+            <div>
+              <h3 class="text-xl font-semibold text-brand-black mb-3">Outdoor Event Space</h3>
+              <p class="text-sm text-brand-charcoal font-light leading-relaxed mb-6">
+                Outdoor space for appropriate business, community, food truck, and event-related uses on the Mystic premises.
+              </p>
+            </div>
+            <button onclick="prefillEnquiry('Outdoor Event Space')" class="text-left inline-flex items-center gap-2 text-xs uppercase tracking-widestPlus font-bold text-brand-black hover:text-brand-bronze transition">
+              Enquire About Event Space <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Additional Specialized Commercial Uses Callout (Directly from verified offerings) -->
+      <div class="mt-16 p-8 bg-brand-warm border-l-4 border-brand-black">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div class="max-w-3xl">
+            <h4 class="text-base uppercase tracking-widestPlus font-bold text-brand-black mb-2">
+              Specialized Commercial Uses Welcomed
+            </h4>
+            <p class="text-sm text-brand-charcoal leading-relaxed font-light">
+              The property also welcomes enquiries for specialized operational models, including <span class="font-medium text-brand-black">spa facilities, food truck operations, commissary prep kitchens, food and beverage manufacturing</span>, and other bespoke commercial uses.
+            </p>
+          </div>
+          <a href="#enquiry" class="shrink-0 px-6 py-3 bg-brand-black text-white hover:bg-neutral-800 text-xs font-semibold uppercase tracking-widestPlus transition">
+            Discuss Your Use Case
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 10. FEATURED PROPERTY / PROPERTY OVERVIEW ================= -->
+  <section id="property-overview" class="py-24 md:py-32 bg-brand-black text-white">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left: Strategic Information -->
+        <div class="lg:col-span-5 order-2 lg:order-1">
+          <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+            Location Overview
+          </span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight leading-tight mb-6 text-white">
+            A Commercial Location <span class="font-bold">in Mystic</span>
+          </h2>
+          
+          <div class="p-6 bg-brand-graphite border border-neutral-700/80 mb-6">
+            <div class="flex items-start gap-3">
+              <i data-lucide="building" class="w-5 h-5 text-brand-bronze shrink-0 mt-0.5"></i>
+              <div>
+                <p class="text-xs uppercase tracking-widest font-semibold text-stone-400">Official Premises</p>
+                <p class="text-base text-white font-medium mt-1">1101 Noank Ledyard Road</p>
+                <p class="text-sm text-stone-300">Mystic, CT 06355, United States</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-stone-300 font-light leading-relaxed mb-8 text-base">
+            North Road Properties offers a range of commercial leasing options at its Mystic location, with space categories for offices, warehouses, makers, storage, and other business uses.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#enquiry" class="px-7 py-3.5 bg-brand-bronze hover:bg-brand-bronzedark text-brand-black font-semibold text-xs uppercase tracking-widestPlus transition text-center">
+              Request Property Information
+            </a>
+            <a href="tel:+18602225507" class="px-7 py-3.5 border border-neutral-700 hover:border-white text-white font-semibold text-xs uppercase tracking-widestPlus transition text-center flex items-center justify-center gap-2">
+              <i data-lucide="phone" class="w-3.5 h-3.5"></i> Call Office
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Authentic Multi-Angle Composition -->
+        <div class="lg:col-span-7 order-1 lg:order-2">
+          <div class="grid grid-cols-12 gap-4">
+            <!-- Large Primary Exterior Frame -->
+            <div class="col-span-12 relative overflow-hidden aspect-[16/9] border border-neutral-800">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg" 
+                alt="North Road Properties Commercial Exterior in Mystic CT" 
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <div class="absolute bottom-3 left-3 px-3 py-1 bg-brand-black/80 text-[10px] tracking-widestPlus uppercase font-bold text-stone-300">
+                Primary Facade View
+              </div>
+            </div>
+
+            <!-- Sub Interior 1 -->
+            <div class="col-span-6 relative overflow-hidden aspect-[4/3] border border-neutral-800">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/658373198_1456355979613003_2422694700211220193_n.jpg" 
+                alt="Interior Corridor and Commercial Ingress at North Road Properties" 
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <div class="absolute bottom-2 left-2 px-2.5 py-0.5 bg-brand-black/80 text-[9px] tracking-widestPlus uppercase text-stone-300">
+                Interior Access
+              </div>
+            </div>
+
+            <!-- Sub Interior 2 -->
+            <div class="col-span-6 relative overflow-hidden aspect-[4/3] border border-neutral-800">
+              <img 
+                src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/657658430_1456355876279680_8049271589506953763_n.jpg" 
+                alt="Interior Office and Commercial Suite at North Road Properties" 
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <div class="absolute bottom-2 left-2 px-2.5 py-0.5 bg-brand-black/80 text-[9px] tracking-widestPlus uppercase text-stone-300">
+                Interior Commercial Suite
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 11. ARCHITECTURAL PHOTO GALLERY ================= -->
+  <section id="gallery" class="py-24 md:py-32 bg-brand-warm border-b border-brand-stone/60">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+            Visual Documentation
+          </span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight">
+            Architectural <span class="font-bold">Photo Gallery</span>
+          </h2>
+        </div>
+        <p class="text-sm text-brand-charcoal font-light max-w-md">
+          A curated view across the 10 authentic exterior and interior spaces of North Road Properties in Mystic, Connecticut. Click any image to view in high resolution.
+        </p>
+      </div>
+
+      <!-- Asymmetrical Editorial Masonry Grid containing all authentic assets -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-6">
+
+        <!-- Image 1 (Exterior Elevation - Wide) -->
+        <div class="lg:col-span-7 group relative aspect-[16/10] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(0)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg" 
+            alt="North Road Properties Main Exterior Facade" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Exterior Facade
+          </div>
+        </div>
+
+        <!-- Image 2 (Exterior Approach) -->
+        <div class="lg:col-span-5 group relative aspect-[16/10] sm:aspect-auto lg:h-full overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(1)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/889912767_1650435533538379_5610502411407513940_n.jpg" 
+            alt="North Road Properties Commercial Approach" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Site Approach
+          </div>
+        </div>
+
+        <!-- Image 3 (Interior Office Perspective 1) -->
+        <div class="lg:col-span-4 group relative aspect-[4/3] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(2)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/657380990_1456355939613007_7450083720104854701_n.jpg" 
+            alt="Commercial Office Suite Interior" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Office Interior
+          </div>
+        </div>
+
+        <!-- Image 4 (Interior Corridor & Architectural Flow) -->
+        <div class="lg:col-span-4 group relative aspect-[4/3] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(3)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/658373198_1456355979613003_2422694700211220193_n.jpg" 
+            alt="Interior Corridor Access" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Interior Corridor
+          </div>
+        </div>
+
+        <!-- Image 5 (Interior Office Perspective 2) -->
+        <div class="lg:col-span-4 group relative aspect-[4/3] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(4)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/657658430_1456355876279680_8049271589506953763_n.jpg" 
+            alt="Commercial Suite Lighting & Proportions" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Suite Details
+          </div>
+        </div>
+
+        <!-- Image 6 (Interior Storage Space) -->
+        <div class="lg:col-span-4 group relative aspect-[4/3] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(5)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/658479981_1456355946279673_6161297689393247705_n.jpg" 
+            alt="Indoor Commercial Storage Compartment" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Storage Enclosure
+          </div>
+        </div>
+
+        <!-- Image 7 (Warehouse / Flex Volume) -->
+        <div class="lg:col-span-4 group relative aspect-[4/3] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(6)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/735786517_1535927258322541_2328848903515565630_n.jpg" 
+            alt="Warehouse and Flex Work Hall" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Warehouse Flex Space
+          </div>
+        </div>
+
+        <!-- Image 8 (Maker Space Workshop) -->
+        <div class="lg:col-span-4 group relative aspect-[4/3] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(7)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/736188416_1535927438322523_3391856490999828057_n.jpg" 
+            alt="Maker Workshop and Production Hall" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Maker Space
+          </div>
+        </div>
+
+        <!-- Image 9 (Outdoor Operational Grounds) -->
+        <div class="lg:col-span-6 group relative aspect-[16/10] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(8)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/891290571_1648332883748644_9137934074111094175_n.jpg" 
+            alt="Outdoor Property Area and Commercial Grounds" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Outdoor Commercial Area
+          </div>
+        </div>
+
+        <!-- Image 10 (Outdoor Storage & Yard Elevation) -->
+        <div class="lg:col-span-6 group relative aspect-[16/10] overflow-hidden bg-neutral-300 border border-brand-stone cursor-pointer" onclick="openLightbox(9)">
+          <img 
+            src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/892172712_1650425516872714_5503675462845532080_n.jpg" 
+            alt="Outdoor Storage and Exterior Property" 
+            class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="px-4 py-2 bg-white text-brand-black text-[11px] uppercase tracking-widestPlus font-bold flex items-center gap-2">
+              <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Expand View
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 bg-brand-black/85 text-white text-[10px] uppercase tracking-widest px-2.5 py-1">
+            Outside Yard &amp; Storage
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 12. WHY NORTH ROAD PROPERTIES ================= -->
+  <section class="py-24 md:py-32 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left: Statement and Pillar Points -->
+        <div class="lg:col-span-6">
+          <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+            Commercial Positioning
+          </span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight mb-8">
+            The Right Space Starts With the <span class="font-bold">Right Conversation.</span>
+          </h2>
+          
+          <div class="space-y-6">
+            <div class="flex items-start gap-4">
+              <div class="p-2.5 bg-brand-warm border border-brand-stone text-brand-black shrink-0">
+                <i data-lucide="layers" class="w-5 h-5 text-brand-bronze"></i>
+              </div>
+              <div>
+                <h4 class="text-base font-semibold text-brand-black">Diverse Commercial Space Categories</h4>
+                <p class="text-sm text-neutral-600 font-light mt-1">
+                  Offering a wide breadth of commercial spaces—including offices, warehouses, workshops, and both indoor and outdoor storage.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="p-2.5 bg-brand-warm border border-brand-stone text-brand-black shrink-0">
+                <i data-lucide="compass" class="w-5 h-5 text-brand-bronze"></i>
+              </div>
+              <div>
+                <h4 class="text-base font-semibold text-brand-black">Established Mystic, Connecticut Location</h4>
+                <p class="text-sm text-neutral-600 font-light mt-1">
+                  Convenient geographic placement along Noank Ledyard Road with seamless connectivity across Groton, East Lyme, and southeastern Connecticut.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="p-2.5 bg-brand-warm border border-brand-stone text-brand-black shrink-0">
+                <i data-lucide="sliders" class="w-5 h-5 text-brand-bronze"></i>
+              </div>
+              <div>
+                <h4 class="text-base font-semibold text-brand-black">Options for Different Business Uses</h4>
+                <p class="text-sm text-neutral-600 font-light mt-1">
+                  Adaptable facilities engineered to accommodate standard commercial tenants as well as specialized food, maker, and production ventures.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="p-2.5 bg-brand-warm border border-brand-stone text-brand-black shrink-0">
+                <i data-lucide="message-square" class="w-5 h-5 text-brand-bronze"></i>
+              </div>
+              <div>
+                <h4 class="text-base font-semibold text-brand-black">Direct Commercial Leasing Enquiries</h4>
+                <p class="text-sm text-neutral-600 font-light mt-1">
+                  Communicate directly regarding your specific operational requirements, timeline, and spatial configuration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Photographic Anchor -->
+        <div class="lg:col-span-6">
+          <div class="relative overflow-hidden aspect-[4/3] bg-neutral-200 border border-brand-stone shadow-xl">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg" 
+              alt="Authentic Exterior of North Road Properties" 
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 13. ABOUT SECTION ================= -->
+  <section id="about" class="py-24 md:py-32 bg-brand-warm border-t border-b border-brand-stone/60">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="max-w-4xl mx-auto text-center mb-16">
+        <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+          Company Overview
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight mb-6">
+          About <span class="font-bold">North Road Properties</span>
+        </h2>
+        <p class="text-lg text-brand-charcoal font-light leading-relaxed">
+          North Road Properties, LLC focuses on commercial real estate leasing in Mystic, Connecticut. Its advertised property offerings include office, warehouse, maker, indoor storage, outdoor storage, and outdoor event spaces.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="bg-white p-8 border border-brand-stone/80 text-left">
+          <div class="text-xs font-bold uppercase tracking-widest text-brand-bronze mb-2">Focus</div>
+          <h3 class="text-xl font-bold text-brand-black mb-3">Commercial Real Estate</h3>
+          <p class="text-sm text-neutral-600 font-light leading-relaxed">
+            Dedicated entirely to commercial and business operations. We provide environments tailored to workspace, storage, manufacturing, and trade.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 border border-brand-stone/80 text-left">
+          <div class="text-xs font-bold uppercase tracking-widest text-brand-bronze mb-2">Location</div>
+          <h3 class="text-xl font-bold text-brand-black mb-3">Mystic &amp; Surrounding Region</h3>
+          <p class="text-sm text-neutral-600 font-light leading-relaxed">
+            Conveniently situated at 1101 Noank Ledyard Road, supporting commercial tenants from Mystic, Groton, East Lyme, and adjacent shoreline communities.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 border border-brand-stone/80 text-left">
+          <div class="text-xs font-bold uppercase tracking-widest text-brand-bronze mb-2">Versatility</div>
+          <h3 class="text-xl font-bold text-brand-black mb-3">Adaptive Configurations</h3>
+          <p class="text-sm text-neutral-600 font-light leading-relaxed">
+            From conventional offices and storage yards to maker facilities and food preparation operations, spaces are structured to meet real business needs.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 14. LOCATION & MAP SECTION ================= -->
+  <section id="location" class="py-24 md:py-32 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left: Address & Regional Information -->
+        <div class="lg:col-span-5">
+          <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+            Convenient Regional Access
+          </span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight mb-6">
+            Located in <span class="font-bold">Mystic, Connecticut</span>
+          </h2>
+          
+          <p class="text-base text-brand-charcoal font-light leading-relaxed mb-8">
+            North Road Properties is situated in Mystic, Connecticut, positioned for straightforward access for businesses across the southeastern Connecticut corridor, including Groton and East Lyme.
+          </p>
+
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start gap-3.5 p-4 bg-brand-warm border border-brand-stone">
+              <i data-lucide="map-pin" class="w-5 h-5 text-brand-bronze shrink-0 mt-0.5"></i>
+              <div>
+                <span class="text-xs uppercase tracking-widest font-bold text-neutral-400 block mb-0.5">Physical Address</span>
+                <span class="text-sm font-semibold text-brand-black block">1101 Noank Ledyard Road</span>
+                <span class="text-sm text-neutral-600">Mystic, CT 06355, United States</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 bg-brand-warm border border-brand-stone">
+              <i data-lucide="phone-call" class="w-5 h-5 text-brand-bronze shrink-0 mt-0.5"></i>
+              <div>
+                <span class="text-xs uppercase tracking-widest font-bold text-neutral-400 block mb-0.5">Telephone</span>
+                <a href="tel:+18602225507" class="text-sm font-semibold text-brand-black hover:text-brand-bronzedark transition">
+                  +1 860-222-5507
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 bg-brand-warm border border-brand-stone">
+              <i data-lucide="mail" class="w-5 h-5 text-brand-bronze shrink-0 mt-0.5"></i>
+              <div>
+                <span class="text-xs uppercase tracking-widest font-bold text-neutral-400 block mb-0.5">Email Inquiries</span>
+                <a href="mailto:northroadpropertiesct@gmail.com" class="text-sm font-semibold text-brand-black hover:text-brand-bronzedark transition break-all">
+                  northroadpropertiesct@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a 
+            href="https://maps.google.com/?q=1101+Noank+Ledyard+Road,+Mystic,+CT+06355" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-flex items-center gap-2 px-6 py-3 bg-brand-black text-white hover:bg-neutral-800 text-xs font-semibold uppercase tracking-widestPlus transition"
+          >
+            <i data-lucide="navigation" class="w-4 h-4"></i> Get Directions
+          </a>
+        </div>
+
+        <!-- Right: Responsive Embedded Map -->
+        <div class="lg:col-span-7">
+          <div class="relative w-full aspect-[4/3] sm:aspect-[16/10] bg-neutral-200 border border-brand-stone shadow-lg overflow-hidden">
+            <iframe 
+              title="North Road Properties Location Map"
+              src="https://maps.google.com/maps?q=1101+Noank+Ledyard+Road,+Mystic,+CT+06355&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              class="w-full h-full border-0 filter contrast-[105%]"
+              loading="lazy" 
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 15. COMMERCIAL LEASING ENQUIRY FORM ================= -->
+  <section id="enquiry" class="py-24 md:py-32 bg-brand-warm border-t border-brand-stone/60">
+    <div class="max-w-4xl mx-auto px-6">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+          Direct Commercial Inquiries
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight mb-4">
+          Looking for <span class="font-bold">Commercial Space?</span>
+        </h2>
+        <p class="text-base text-brand-charcoal font-light leading-relaxed max-w-2xl mx-auto">
+          Tell us what type of space your business needs, and contact North Road Properties for more information.
+        </p>
+      </div>
+
+      <!-- Form Container -->
+      <div class="bg-white p-8 sm:p-12 border border-brand-stone shadow-xl">
+        
+        <!-- Submission Feedback Alert Box (Vanilla JS driven, no alerts) -->
+        <div id="form-alert" class="hidden mb-8 p-4 border text-sm"></div>
+
+        <form id="leasing-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Full Name -->
+            <div>
+              <label for="full_name" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Full Name <span class="text-brand-bronze">*</span>
+              </label>
+              <input 
+                type="text" 
+                id="full_name" 
+                name="full_name" 
+                required 
+                placeholder="Jane Doe" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+
+            <!-- Business Name -->
+            <div>
+              <label for="business_name" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Business Name <span class="text-brand-bronze">*</span>
+              </label>
+              <input 
+                type="text" 
+                id="business_name" 
+                name="business_name" 
+                required 
+                placeholder="Acme Enterprises LLC" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Email Address -->
+            <div>
+              <label for="email_address" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Email Address <span class="text-brand-bronze">*</span>
+              </label>
+              <input 
+                type="email" 
+                id="email_address" 
+                name="email_address" 
+                required 
+                placeholder="name@company.com" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+              <label for="phone_number" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Phone Number <span class="text-brand-bronze">*</span>
+              </label>
+              <input 
+                type="tel" 
+                id="phone_number" 
+                name="phone_number" 
+                required 
+                placeholder="+1 860-000-0000" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Space Type -->
+            <div>
+              <label for="space_type" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Type of Space Required <span class="text-brand-bronze">*</span>
+              </label>
+              <select 
+                id="space_type" 
+                name="space_type" 
+                required 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              >
+                <option value="">Select space type...</option>
+                <option value="Office Space">Office Space</option>
+                <option value="Warehouse Space">Warehouse Space</option>
+                <option value="Maker Space">Maker Space</option>
+                <option value="Indoor Storage">Indoor Storage</option>
+                <option value="Outside Storage">Outside Storage</option>
+                <option value="Outdoor Event Space">Outdoor Event Space</option>
+                <option value="Specialized Commercial Use (Spa, Food Truck, Kitchen, etc.)">Specialized Commercial Use (Spa, Food Truck, Kitchen, etc.)</option>
+                <option value="Other Commercial Space">Other Commercial Space</option>
+              </select>
+            </div>
+
+            <!-- Approximate Sq Footage Required -->
+            <div>
+              <label for="sq_footage" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Approximate Sq Footage
+              </label>
+              <input 
+                type="text" 
+                id="sq_footage" 
+                name="sq_footage" 
+                placeholder="e.g. 500 - 2,500 sq ft or flexible" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <!-- Intended Business Use -->
+            <div>
+              <label for="intended_use" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Intended Business Use
+              </label>
+              <input 
+                type="text" 
+                id="intended_use" 
+                name="intended_use" 
+                placeholder="e.g. Contractor office, artisanal production, storage" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+
+            <!-- Preferred Occupancy Date -->
+            <div>
+              <label for="preferred_date" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+                Preferred Occupancy Date
+              </label>
+              <input 
+                type="text" 
+                id="preferred_date" 
+                name="preferred_date" 
+                placeholder="e.g. Immediate / Next 30–60 Days" 
+                class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+              />
+            </div>
+          </div>
+
+          <!-- Additional Requirements -->
+          <div>
+            <label for="requirements" class="block text-xs uppercase tracking-widest font-semibold text-brand-black mb-2">
+              Additional Requirements or Questions
+            </label>
+            <textarea 
+              id="requirements" 
+              name="requirements" 
+              rows="4" 
+              placeholder="Provide any specific details regarding access requirements, equipment, or operational questions..."
+              class="w-full px-4 py-3 bg-brand-warm border border-brand-stone text-sm text-brand-black focus:outline-none focus:border-brand-black transition"
+            ></textarea>
+          </div>
+
+          <!-- Notice on Availability -->
+          <div class="text-xs text-neutral-500 font-light">
+            Note: Submitting an enquiry does not guarantee current space vacancy. All discussions are handled directly by North Road Properties, LLC to evaluate suitability and scheduling.
+          </div>
+
+          <!-- Submit Button -->
+          <button 
+            type="submit" 
+            id="form-submit-btn"
+            class="w-full py-4 bg-brand-black text-white hover:bg-neutral-800 text-xs font-semibold uppercase tracking-widestPlus transition shadow-md flex items-center justify-center gap-2"
+          >
+            <span>Submit Leasing Enquiry</span>
+            <i data-lucide="send" class="w-4 h-4"></i>
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 16. FAQ SECTION ================= -->
+  <section class="py-24 md:py-32 bg-white border-t border-brand-stone/60">
+    <div class="max-w-4xl mx-auto px-6">
+      
+      <div class="text-center mb-16">
+        <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-3 block">
+          Inquiries &amp; Information
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-light text-brand-black tracking-tight leading-tight">
+          Frequently Asked <span class="font-bold">Questions</span>
+        </h2>
+      </div>
+
+      <div class="divide-y divide-neutral-200 border-t border-b border-neutral-200">
+        
+        <!-- FAQ 1 -->
+        <div class="py-6">
+          <button onclick="toggleFaq(1)" class="w-full flex justify-between items-center text-left text-base sm:text-lg font-semibold text-brand-black focus:outline-none group">
+            <span>What types of commercial spaces does North Road Properties offer?</span>
+            <i data-lucide="plus" id="faq-icon-1" class="w-5 h-5 text-neutral-500 group-hover:text-brand-black transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-1" class="hidden mt-4 text-sm sm:text-base text-brand-charcoal font-light leading-relaxed">
+            North Road Properties advertises six primary commercial categories: office space, warehouse space, maker space, indoor storage, outside storage, and outdoor event space. Additionally, inquiries are welcomed for specialized commercial operations such as spa facilities, food truck staging, and food/beverage preparation.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="py-6">
+          <button onclick="toggleFaq(2)" class="w-full flex justify-between items-center text-left text-base sm:text-lg font-semibold text-brand-black focus:outline-none group">
+            <span>How can I enquire about commercial space?</span>
+            <i data-lucide="plus" id="faq-icon-2" class="w-5 h-5 text-neutral-500 group-hover:text-brand-black transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-2" class="hidden mt-4 text-sm sm:text-base text-brand-charcoal font-light leading-relaxed">
+            You can reach out directly via telephone at <a href="tel:+18602225507" class="font-medium text-brand-black underline">+1 860-222-5507</a>, send an email to <a href="mailto:northroadpropertiesct@gmail.com" class="font-medium text-brand-black underline">northroadpropertiesct@gmail.com</a>, or submit the structured commercial leasing enquiry form on this website.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="py-6">
+          <button onclick="toggleFaq(3)" class="w-full flex justify-between items-center text-left text-base sm:text-lg font-semibold text-brand-black focus:outline-none group">
+            <span>Where is North Road Properties located?</span>
+            <i data-lucide="plus" id="faq-icon-3" class="w-5 h-5 text-neutral-500 group-hover:text-brand-black transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-3" class="hidden mt-4 text-sm sm:text-base text-brand-charcoal font-light leading-relaxed">
+            The property is located at 1101 Noank Ledyard Road, Mystic, CT 06355, United States, serving businesses across the local Mystic area as well as neighboring communities including Groton and East Lyme.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="py-6">
+          <button onclick="toggleFaq(4)" class="w-full flex justify-between items-center text-left text-base sm:text-lg font-semibold text-brand-black focus:outline-none group">
+            <span>How can I request property information?</span>
+            <i data-lucide="plus" id="faq-icon-4" class="w-5 h-5 text-neutral-500 group-hover:text-brand-black transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-4" class="hidden mt-4 text-sm sm:text-base text-brand-charcoal font-light leading-relaxed">
+            Property information is provided directly upon receiving your specific enquiry. Please share details regarding your business activity, space requirement, and intended usage so that relevant information can be furnished.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="py-6">
+          <button onclick="toggleFaq(5)" class="w-full flex justify-between items-center text-left text-base sm:text-lg font-semibold text-brand-black focus:outline-none group">
+            <span>Can I enquire about a specific type of commercial space?</span>
+            <i data-lucide="plus" id="faq-icon-5" class="w-5 h-5 text-neutral-500 group-hover:text-brand-black transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-5" class="hidden mt-4 text-sm sm:text-base text-brand-charcoal font-light leading-relaxed">
+            Yes. You may specify any of the offered categories or indicate customized requirements for your trade or enterprise within the enquiry form.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 17. FINAL CALL TO ACTION ================= -->
+  <!-- Authentic Exterior Background with Dark Overlay -->
+  <section class="relative py-28 md:py-36 bg-brand-black text-white overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg" 
+        alt="North Road Properties Mystic Commercial Premises" 
+        class="w-full h-full object-cover filter brightness-[0.35] contrast-[1.1]"
+        loading="lazy"
+      />
+    </div>
+    
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+      <span class="text-xs uppercase tracking-widestPlus font-semibold text-brand-bronze mb-4 block">
+        Commercial Leasing • Mystic, Connecticut
+      </span>
+      <h2 class="text-3xl sm:text-5xl md:text-6xl font-light tracking-tight text-white mb-6 leading-tight">
+        Find Space for <span class="font-bold">What’s Next.</span>
+      </h2>
+      <p class="text-base sm:text-lg text-stone-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+        Connect with North Road Properties to explore commercial space options in Mystic, Connecticut.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#enquiry" class="w-full sm:w-auto px-8 py-4 bg-white text-brand-black hover:bg-stone-200 text-xs font-semibold uppercase tracking-widestPlus transition shadow-lg">
+          Enquire About Space
+        </a>
+        <a href="tel:+18602225507" class="w-full sm:w-auto px-8 py-4 bg-transparent border border-white/60 hover:bg-white/10 text-white text-xs font-semibold uppercase tracking-widestPlus transition flex items-center justify-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4"></i> Call +1 860-222-5507
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 18. PROFESSIONAL FOOTER ================= -->
+  <footer class="bg-brand-black text-stone-300 border-t border-neutral-800">
+    <div class="max-w-7xl mx-auto px-6 pt-20 pb-12">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-16 pb-16 border-b border-neutral-800">
+        
+        <!-- Column 1: Brand & Logo -->
+        <div class="lg:col-span-4">
+          <!-- Logo rendered with crisp screen inversion to ensure pristine transparent integration on dark background -->
+          <a href="#hero" class="inline-block mb-6">
+            <img 
+              src="https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/643882365_1430402762208325_1813272272624115096_n.jpg" 
+              alt="North Road Properties Logo" 
+              class="h-16 sm:h-20 w-auto object-contain logo-dark"
+            />
+          </a>
+          <p class="text-xs text-stone-400 font-light leading-relaxed max-w-sm mb-6">
+            North Road Properties, LLC provides commercial real estate leasing solutions in Mystic, Connecticut, offering adaptable workspace, storage, and specialized facilities.
+          </p>
+          <div class="flex items-center gap-4">
+            <a 
+              href="https://www.facebook.com/profile.php?id=100057158452079" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="w-10 h-10 rounded-full bg-brand-graphite border border-neutral-700 flex items-center justify-center text-stone-300 hover:text-white hover:bg-[#1877F2]/20 hover:border-[#1877F2] transition-all duration-300 group shadow-sm"
+              aria-label="North Road Properties on Facebook"
+            >
+              <svg class="w-4 h-4 fill-current text-stone-300 group-hover:text-[#1877F2] transition-colors" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a 
+              href="https://maps.google.com/?q=1101+Noank+Ledyard+Road,+Mystic,+CT+06355" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="w-10 h-10 rounded-full bg-brand-graphite border border-neutral-700 flex items-center justify-center text-stone-300 hover:text-white hover:border-brand-bronze transition-all duration-300"
+              aria-label="North Road Properties on Google Maps"
+            >
+              <i data-lucide="map-pin" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation -->
+        <div class="lg:col-span-2">
+          <h4 class="text-xs uppercase tracking-widest font-semibold text-white mb-5">Navigation</h4>
+          <ul class="space-y-3 text-xs uppercase tracking-wider text-stone-400">
+            <li><a href="#hero" class="hover:text-white transition">Home</a></li>
+            <li><a href="#property-spaces" class="hover:text-white transition">Property Spaces</a></li>
+            <li><a href="#property-overview" class="hover:text-white transition">The Property</a></li>
+            <li><a href="#gallery" class="hover:text-white transition">Gallery</a></li>
+            <li><a href="#about" class="hover:text-white transition">About</a></li>
+            <li><a href="#location" class="hover:text-white transition">Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Commercial Services -->
+        <div class="lg:col-span-3">
+          <h4 class="text-xs uppercase tracking-widest font-semibold text-white mb-5">Commercial Spaces</h4>
+          <ul class="space-y-3 text-xs tracking-wide text-stone-400">
+            <li><a href="#property-spaces" onclick="prefillEnquiry('Office Space')" class="hover:text-white transition">Office Space</a></li>
+            <li><a href="#property-spaces" onclick="prefillEnquiry('Warehouse Space')" class="hover:text-white transition">Warehouse Space</a></li>
+            <li><a href="#property-spaces" onclick="prefillEnquiry('Maker Space')" class="hover:text-white transition">Maker Space</a></li>
+            <li><a href="#property-spaces" onclick="prefillEnquiry('Indoor Storage')" class="hover:text-white transition">Indoor Storage</a></li>
+            <li><a href="#property-spaces" onclick="prefillEnquiry('Outside Storage')" class="hover:text-white transition">Outside Storage</a></li>
+            <li><a href="#property-spaces" onclick="prefillEnquiry('Outdoor Event Space')" class="hover:text-white transition">Outdoor Event Space</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Information -->
+        <div class="lg:col-span-3">
+          <h4 class="text-xs uppercase tracking-widest font-semibold text-white mb-5">Mystic Premises</h4>
+          <address class="not-italic text-xs text-stone-400 space-y-3 leading-relaxed">
+            <p class="text-stone-300 font-medium">North Road Properties, LLC</p>
+            <p>1101 Noank Ledyard Road<br>Mystic, CT 06355, USA</p>
+            <p>
+              <a href="tel:+18602225507" class="hover:text-white transition block mt-2 text-stone-300">
+                Tel: +1 860-222-5507
+              </a>
+            </p>
+            <p>
+              <a href="mailto:northroadpropertiesct@gmail.com" class="hover:text-white transition block break-all">
+                northroadpropertiesct@gmail.com
+              </a>
+            </p>
+          </address>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+        <div>
+          &copy; <span id="current-year"></span> North Road Properties, LLC. All rights reserved. Commercial Real Estate Leasing.
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="#hero" class="hover:text-stone-300 transition flex items-center gap-1">
+            Back to Top <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= TIMED FLOATING CTA (EVERY 15 SECONDS) ================= -->
+  <div id="timed-cta" class="fixed bottom-6 right-6 z-40 hidden max-w-sm w-[calc(100vw-3rem)] sm:w-auto shadow-2xl transition-all duration-300">
+    <div class="bg-brand-black/95 backdrop-blur-md text-white border border-neutral-700/80 p-4 sm:p-5 flex items-center justify-between gap-4 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+      
+      <!-- Content & Indicator -->
+      <div class="flex items-center gap-3">
+        <div class="w-2.5 h-2.5 rounded-full bg-brand-bronze animate-pulse shrink-0"></div>
+        <div>
+          <span class="block text-[10px] tracking-widestPlus uppercase font-bold text-brand-bronze">Commercial Availability</span>
+          <span class="text-xs sm:text-sm font-light text-stone-200">Looking for space in Mystic?</span>
+        </div>
+      </div>
+
+      <!-- Action Button & Dismiss -->
+      <div class="flex items-center gap-2">
+        <a 
+          href="#enquiry" 
+          onclick="dismissTimedCta()" 
+          class="inline-flex items-center gap-1.5 px-4 py-2 bg-white text-brand-black hover:bg-stone-200 text-[11px] font-bold tracking-widestPlus uppercase transition whitespace-nowrap shadow-sm"
+        >
+          <span>Enquire</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </a>
+        <button 
+          onclick="dismissTimedCta()" 
+          class="p-1 text-stone-400 hover:text-white transition focus:outline-none" 
+          aria-label="Dismiss notification"
+        >
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= 19. LIGHTBOX MODAL ================= -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/95 hidden flex-col items-center justify-center p-4">
+    <!-- Close button -->
+    <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white/80 hover:text-white p-2 z-50 focus:outline-none" aria-label="Close Lightbox">
+      <i data-lucide="x" class="w-8 h-8"></i>
+    </button>
+    
+    <!-- Previous button -->
+    <button onclick="prevLightboxImage()" class="absolute left-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white p-3 z-50 focus:outline-none" aria-label="Previous Image">
+      <i data-lucide="chevron-left" class="w-10 h-10"></i>
+    </button>
+    
+    <!-- Next button -->
+    <button onclick="nextLightboxImage()" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white p-3 z-50 focus:outline-none" aria-label="Next Image">
+      <i data-lucide="chevron-right" class="w-10 h-10"></i>
+    </button>
+
+    <!-- Content -->
+    <div class="max-w-5xl max-h-[85vh] w-full flex flex-col items-center justify-center modal-enter">
+      <img id="lightbox-img" src="" alt="Property View" class="max-w-full max-h-[75vh] object-contain shadow-2xl border border-neutral-800">
+      <div class="mt-4 flex items-center justify-between w-full max-w-xl px-4 text-stone-300 text-xs">
+        <span id="lightbox-caption" class="tracking-widest uppercase font-semibold"></span>
+        <span id="lightbox-counter" class="text-neutral-500 font-mono"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CLIENT JAVASCRIPT ================= -->
+  <script>
+    // Set dynamic copyright year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile Navigation Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Sticky Header Scroll Styling
+    const mainHeader = document.getElementById('main-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        mainHeader.classList.add('shadow-md', 'bg-brand-warm/98');
+      } else {
+        mainHeader.classList.remove('shadow-md', 'bg-brand-warm/98');
+      }
+    });
+
+    // Prefill space type when clicking category CTAs
+    function prefillEnquiry(spaceType) {
+      const select = document.getElementById('space_type');
+      if (select) {
+        select.value = spaceType;
+        const enquirySection = document.getElementById('enquiry');
+        if (enquirySection) {
+          enquirySection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }
+
+    // Commercial Leasing Enquiry Form Handling
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      
+      const form = event.target;
+      const alertBox = document.getElementById('form-alert');
+      const submitBtn = document.getElementById('form-submit-btn');
+
+      const fullName = form.full_name.value.trim();
+      const businessName = form.business_name.value.trim();
+      const email = form.email_address.value.trim();
+      const phone = form.phone_number.value.trim();
+      const spaceType = form.space_type.value;
+      const sqFt = form.sq_footage.value.trim();
+      const intendedUse = form.intended_use.value.trim();
+      const date = form.preferred_date.value.trim();
+      const reqs = form.requirements.value.trim();
+
+      if (!fullName || !businessName || !email || !phone || !spaceType) {
+        alertBox.className = "mb-8 p-4 border border-red-300 bg-red-50 text-red-800 text-sm";
+        alertBox.innerHTML = "<strong>Required fields missing:</strong> Please provide your name, business name, valid contact info, and desired space type.";
+        alertBox.classList.remove('hidden');
+        return;
+      }
+
+      // Compose mailto fallback payload for dependable direct client contact
+      const emailSubject = encodeURIComponent(`Commercial Space Enquiry - ${businessName} (${spaceType})`);
+      const emailBody = encodeURIComponent(
+        `Commercial Leasing Enquiry for North Road Properties, LLC:\n\n` +
+        `Contact Name: ${fullName}\n` +
+        `Business Name: ${businessName}\n` +
+        `Email: ${email}\n` +
+        `Phone: ${phone}\n` +
+        `Space Category: ${spaceType}\n` +
+        `Approx. Square Footage: ${sqFt || 'Flexible'}\n` +
+        `Intended Business Use: ${intendedUse || 'Not specified'}\n` +
+        `Preferred Occupancy: ${date || 'Flexible'}\n\n` +
+        `Additional Requirements:\n${reqs || 'None'}\n\n` +
+        `Submitted via northroadproperties official web portal.`
+      );
+
+      // Display transparent fallback information
+      alertBox.className = "mb-8 p-5 border border-brand-black bg-brand-warm text-brand-black text-sm leading-relaxed";
+      alertBox.innerHTML = `
+        <div class="font-bold text-base mb-1">Enquiry Prepared</div>
+        <p class="mb-3">Thank you, <strong>${fullName}</strong>. To ensure direct commercial delivery without third-party delay, your enquiry has been formatted for North Road Properties' leasing desk.</p>
+        <p class="text-xs text-neutral-600 mb-4">Click below to dispatch via your preferred mail client or call directly at +1 860-222-5507.</p>
+        <a href="mailto:northroadpropertiesct@gmail.com?subject=${emailSubject}&body=${emailBody}" class="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-black text-white text-xs uppercase tracking-widest font-semibold hover:bg-neutral-800 transition">
+          Launch Email Client Now
+        </a>
+      `;
+      alertBox.classList.remove('hidden');
+      alertBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    // FAQ Accordion Toggle
+    function toggleFaq(index) {
+      const content = document.getElementById(`faq-content-${index}`);
+      const icon = document.getElementById(`faq-icon-${index}`);
+      
+      const isHidden = content.classList.contains('hidden');
+      
+      // Close all others
+      for (let i = 1; i <= 5; i++) {
+        const c = document.getElementById(`faq-content-${i}`);
+        const ic = document.getElementById(`faq-icon-${i}`);
+        if (c && ic) {
+          c.classList.add('hidden');
+          ic.setAttribute('data-lucide', 'plus');
+        }
+      }
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.setAttribute('data-lucide', 'minus');
+      } else {
+        content.classList.add('hidden');
+        icon.setAttribute('data-lucide', 'plus');
+      }
+      lucide.createIcons();
+    }
+
+    // Lightbox Functionality across the 10 authentic property photographs
+    const galleryItems = [
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/890617042_1650424803539452_5996283914295495662_n.jpg",
+        caption: "Main Commercial Building Exterior & Facade • Mystic, CT"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/889912767_1650435533538379_5610502411407513940_n.jpg",
+        caption: "Site Entrance & Commercial Premises Elevation"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/657380990_1456355939613007_7450083720104854701_n.jpg",
+        caption: "Commercial Office Suite Interior with Natural Light"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/658373198_1456355979613003_2422694700211220193_n.jpg",
+        caption: "Interior Commercial Ingress & Connecting Corridor"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/657658430_1456355876279680_8049271589506953763_n.jpg",
+        caption: "Interior Commercial Suite Architecture"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/658479981_1456355946279673_6161297689393247705_n.jpg",
+        caption: "Indoor Storage Facility Enclosure"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/735786517_1535927258322541_2328848903515565630_n.jpg",
+        caption: "Warehouse and Flexible High-Span Operational Floor"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/736188416_1535927438322523_3391856490999828057_n.jpg",
+        caption: "Maker Workshop and Production Hall"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/891290571_1648332883748644_9137934074111094175_n.jpg",
+        caption: "Commercial Site Grounds & Exterior Staging Area"
+      },
+      {
+        url: "https://raw.githubusercontent.com/CreativeTugsDotCom/FC/refs/heads/main/892172712_1650425516872714_5503675462845532080_n.jpg",
+        caption: "Exterior Property Grounds & Outdoor Storage Yard"
+      }
+    ];
+
+    let currentLightboxIndex = 0;
+    const lightboxModal = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxCounter = document.getElementById('lightbox-counter');
+
+    function openLightbox(index) {
+      currentLightboxIndex = index;
+      updateLightboxContent();
+      lightboxModal.classList.remove('hidden');
+      lightboxModal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightboxModal.classList.add('hidden');
+      lightboxModal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    function nextLightboxImage() {
+      currentLightboxIndex = (currentLightboxIndex + 1) % galleryItems.length;
+      updateLightboxContent();
+    }
+
+    function prevLightboxImage() {
+      currentLightboxIndex = (currentLightboxIndex - 1 + galleryItems.length) % galleryItems.length;
+      updateLightboxContent();
+    }
+
+    function updateLightboxContent() {
+      const item = galleryItems[currentLightboxIndex];
+      lightboxImg.src = item.url;
+      lightboxCaption.textContent = item.caption;
+      lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${galleryItems.length}`;
+    }
+
+    // Keyboard navigation for lightbox
+    document.addEventListener('keydown', (e) => {
+      if (!lightboxModal.classList.contains('hidden')) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') nextLightboxImage();
+        if (e.key === 'ArrowLeft') prevLightboxImage();
+      }
+    });
+
+    // Close on background click
+    lightboxModal.addEventListener('click', (e) => {
+      if (e.target === lightboxModal) {
+        closeLightbox();
+      }
+    });
+
+    // 15-Second Interval Architectural Floating CTA
+    const timedCta = document.getElementById('timed-cta');
+    let ctaInterval = null;
+
+    function showTimedCta() {
+      if (timedCta) {
+        timedCta.classList.remove('hidden');
+        timedCta.classList.add('cta-float-enter');
+        lucide.createIcons();
+      }
+    }
+
+    function dismissTimedCta() {
+      if (timedCta) {
+        timedCta.classList.add('hidden');
+        timedCta.classList.remove('cta-float-enter');
+      }
+    }
+
+    // Schedule the CTA to prompt every 15 seconds
+    ctaInterval = setInterval(() => {
+      showTimedCta();
+    }, 15000);
+  </script>
+</body>
+</html>
